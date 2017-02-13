@@ -20,3 +20,5 @@ public class En_bastan {
       System.out.println("Girdiginiz Sayilarin Bolumu:"+(x/y));
       System.out.println("Girdiginiz Sayilarin Kalani:"+(x%y));
       System.out.println("Girdiginiz Sayilarin Farki"+(x-y));
+    }
+}
