@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class Anil{
+
+public static void main (String [] args){
+/* Bu ornekte bir seyler daha ekleyerek kendimce biraz daha zorlastirip 
+bilgilerimi kullanmak istedim o yuzden istenilenden biraz daha farkli yaptim */
+
+Scanner s = new Scanner (System.in);
+
+int x, yas, dogumTarihi;
+System.out.println("Yasinizi veya Dogum yilinizi giriniz lutfen :)");
+x = s.nextInt();
+
+if (x > 1000) {
+
+yas = 2017 - x;
+
+System.out.println("Yasiniz: "+yas);
+}
+
+else if (x < 1000) {
+
+dogumTarihi = 2017 - x;
+
+System.out.println("Dogum Tarihiniz: "+dogumTarihi);
+}
+
+else {
+
+System.out.println("Bir Hata oldu ! Tekrar deneyin(Dogum Tarihinizi / yasinizi dogru girdginizden emin olun)");
+
+}
+
+}
+// Tarih kullanimini bilmedigim icin basitce bulundugumuz yili aldim
+}
